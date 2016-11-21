@@ -1,0 +1,6 @@
+rm -rf pub/static/* && rm -rf var/*
+
+
+
+docker-compose exec phpfpm ./bin/magento
+
